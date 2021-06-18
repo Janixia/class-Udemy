@@ -13,6 +13,7 @@ import MainNavigation from './shared/components/Navigation/MainNavigation';
 
 const App = () => {
   return (
+
     <Router>
       <MainNavigation />
       <main> 
@@ -30,6 +31,7 @@ const App = () => {
         </Switch>
       </main>
     </Router>
+    
   );
 };
 
