@@ -9,7 +9,7 @@ const inputReducer = (state, action) => {
       return {
        ...state, 
        value: action.val,
-       isValid: validate(action.val, action.validators)
+       isValid: validate(action.value, action.validators)
       };
       case 'TOUCH' : {
         return {
